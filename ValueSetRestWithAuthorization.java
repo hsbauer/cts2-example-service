@@ -33,7 +33,7 @@ public class ValueSetRestWithAuthorization {
 
             connection = (HttpsURLConnection) url.openConnection();
             connection.setRequestProperty("Accept", "text/json");
-            String user_pwd = ("hsbauer:Norm10$$");
+            String user_pwd = ("username:password");
             BASE64Encoder enc = new sun.misc.BASE64Encoder();
             String encodedAuthorization = enc.encode( user_pwd.getBytes() );
 
