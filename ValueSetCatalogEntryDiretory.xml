@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValueSetCatalogEntryDirectory
+    xmlns="http://schema.omg.org/spec/CTS2/1.0/ValueSet"
+    xmlns:core="http://schema.omg.org/spec/CTS2/1.0/Core"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schema.omg.org/spec/CTS2/1.0/ValueSet http://informatics.mayo.edu/svn/trunk/cts2/spec/psm/rest/schema/ValueSet.xsd"
+    complete="PARTIAL" numEntries="50" next="http://informatics.mayo.edu/cts2/rest/valuesets?page=1&amp;maxtoreturn=50">
+    <core:heading>
+        <core:resourceRoot>valuesets</core:resourceRoot>
+        <core:resourceURI>http://informatics.mayo.edu/cts2/rest/valuesets</core:resourceURI>
+        <core:accessDate>2013-01-11T09:55:35.601-05:00</core:accessDate>
+    </core:heading>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/HCPCS-mod"
+        resourceName="HCPCS-mod"
+        about="http://purl.bioontology.org/view/HCPCS-mod"
+        formalName="HCPCS modifiers" valueSetName="HCPCS-mod">
+        <core:resourceSynopsis>
+            <core:value>Modifiers denote that a certain procedure/service has been altered by a particular circumstance, but not changed in its definition, therefore the same code is used and a modifier is added to denote what has been altered.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/LOINC"
+        resourceName="LOINC"
+        about="http://purl.bioontology.org/view/LOINC"
+        formalName="LOINC" valueSetName="LOINC">
+        <core:resourceSynopsis>
+            <core:value>LOINC</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/SNOMEDCT-CORE"
+        resourceName="SNOMEDCT-CORE"
+        about="http://purl.bioontology.org/view/SNOMEDCT-CORE"
+        formalName="CORE Subset of SNOMED CT" valueSetName="SNOMEDCT-CORE">
+        <core:resourceSynopsis>
+            <core:value>The CORE Problem List Subset of SNOMED CT</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/ICF-d1"
+        resourceName="ICF-d1"
+        about="http://purl.bioontology.org/view/ICF-d1"
+        formalName="ICF-d1. LEARNING AND APPLYING KNOWLEDGE" valueSetName="ICF-d1">
+        <core:resourceSynopsis>
+            <core:value>The "ACTIVITIES AND PARTICIPATION CHAPTER 1: LEARNING AND APPLYING KNOWLEDGE" (d1) sub-tree of the "International Classification of Functioning, Disability and Health (ICF)" ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/ECGF"
+        resourceName="ECGF"
+        about="http://purl.bioontology.org/view/ECGF"
+        formalName="ECG Findings" valueSetName="ECGF">
+        <core:resourceSynopsis>
+            <core:value>This is a subset of the ECG Ontology, focused on two classification systems used extensively in heart diseases research.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/goslim_yeast"
+        resourceName="goslim_yeast"
+        about="http://purl.bioontology.org/view/goslim_yeast"
+        formalName="Yeast slim" valueSetName="goslim_yeast">
+        <core:resourceSynopsis>
+            <core:value>Developed by Saccharomyces Genome Database</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/bibliographic"
+        resourceName="bibliographic"
+        about="http://purl.bioontology.org/view/bibliographic"
+        formalName="Bibliographic" valueSetName="bibliographic">
+        <core:resourceSynopsis>
+            <core:value>This file is imported by vivo-core-public-1.5.owlThis file contains selected terms from the bibliographic ontology (see http://bibliontology.com/) which relate to information resources.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/RCJI"
+        resourceName="RCJI"
+        about="http://purl.bioontology.org/view/RCJI"
+        formalName="READ codes joint injury tree" valueSetName="RCJI">
+        <core:resourceSynopsis>
+            <core:value>This tree contains all the codes in the tree of joint injury codes in READ, and was created to explore joint injury as an exposure in a large health care data set.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/provenance"
+        resourceName="provenance"
+        about="http://purl.bioontology.org/view/provenance"
+        formalName="Provenance" valueSetName="provenance">
+        <core:resourceSynopsis>
+            <core:value>This file is imported by vivo-core-public-1.5.owl. It contains terms related to people for the purpose of accumulating information about persons who are not fully identified.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/SNOMED-Ethnic-Group"
+        resourceName="SNOMED-Ethnic-Group"
+        about="http://purl.bioontology.org/view/SNOMED-Ethnic-Group"
+        formalName="SNOMED Ethnic Group" valueSetName="SNOMED-Ethnic-Group">
+        <core:resourceSynopsis>
+            <core:value>Ethnic Group From SNOMED CT</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/citation"
+        resourceName="citation"
+        about="http://purl.bioontology.org/view/citation"
+        formalName="Citation Counting" valueSetName="citation">
+        <core:resourceSynopsis>
+            <core:value>This file is imported by vivo-core-public-1.5.owlThis file contains terms that relate to citation counts from the Citation Counting and Context Characterization ontology of the Semantic Publishing and Referencing ontology suite (http://sempublishing.svn.sourceforge.net/viewvc/sempublishing/SPAR/index.html)</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/foaf"
+        resourceName="foaf"
+        about="http://purl.bioontology.org/view/foaf"
+        formalName="FOAF (people, organizations, groups)" valueSetName="foaf">
+        <core:resourceSynopsis>
+            <core:value>This file is imported by vivo-core-public-1.5.owl.  It contains terms relating to people, groups and organizations from the http://xmlns.com/foaf/0.1/ namespace that are included in the vivo ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/goslim_pir"
+        resourceName="goslim_pir"
+        about="http://purl.bioontology.org/view/goslim_pir"
+        formalName="Protein Information Resource slim" valueSetName="goslim_pir">
+        <core:resourceSynopsis>
+            <core:value>Developed by Darren Natale of PIR</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/ooevv-tractTrace"
+        resourceName="ooevv-tractTrace"
+        about="http://purl.bioontology.org/view/ooevv-tractTrace"
+        formalName="OoEVV tract tracing experiments" valueSetName="ooevv-tractTrace">
+        <core:resourceSynopsis>
+            <core:value>This serves as an instantiation of the OoEVV ontology design pattern for variables derived from models of neuroanatomical tract-tracing experiments described in detail in Russ et al. 2011 (http://www.biomedcentral.com/1471-2105/12/351). This serves as a well-developed example system for development of the KEfED formulation.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/iceci-place_of_occurrence"
+        resourceName="iceci-place_of_occurrence"
+        about="http://purl.bioontology.org/view/iceci-place_of_occurrence"
+        formalName="iceci-place_of_occurrence C4" valueSetName="iceci-place_of_occurrence">
+        <core:resourceSynopsis>
+            <core:value>ICECI Place of occurrence C4</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/test1"
+        resourceName="test1"
+        about="http://purl.bioontology.org/view/test1"
+        formalName="test1" valueSetName="test1">
+        <core:resourceSynopsis>
+            <core:value>12</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/iceci-intent"
+        resourceName="iceci-intent"
+        about="http://purl.bioontology.org/view/iceci-intent"
+        formalName="iceci-intent C1" valueSetName="iceci-intent">
+        <core:resourceSynopsis>
+            <core:value>ICECI Intent C1</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/geopolitical"
+        resourceName="geopolitical"
+        about="http://purl.bioontology.org/view/geopolitical"
+        formalName="Geopolitical" valueSetName="geopolitical">
+        <core:resourceSynopsis>
+            <core:value>This file is imported by vivo-core-public-1.5.owlThis is the geopolitical ontology from the Food and Agriculture Organization of the United Nations</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/ICF-d840-d859"
+        resourceName="ICF-d840-d859"
+        about="http://purl.bioontology.org/view/ICF-d840-d859"
+        formalName="ICF-d840-d859. Work and employment" valueSetName="ICF-d840-d859">
+        <core:resourceSynopsis>
+            <core:value>The "ACTIVITIES AND PARTICIPATION CHAPTER 8: MAJOR LIFE AREAS -&gt; Work and employment" (d840-d859) sub-tree of the "International Classification of Functioning, Disability and Health (ICF)" ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/obi-fged"
+        resourceName="obi-fged"
+        about="http://purl.bioontology.org/view/obi-fged"
+        formalName="FGED View" valueSetName="obi-fged">
+        <core:resourceSynopsis>
+            <core:value>Subset of OBI terms of interest to the FGED Community.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/ooevv-vaccine"
+        resourceName="ooevv-vaccine"
+        about="http://purl.bioontology.org/view/ooevv-vaccine"
+        formalName="OoEVV vaccine protection experiments" valueSetName="ooevv-vaccine">
+        <core:resourceSynopsis>
+            <core:value>This serves as an instantiation of the OoEVV ontology design pattern for variables derived from vaccine protection studies that have been previously indexed in the Los Alamos National Laboratories (LANL) HIV Vaccine Trials Database. This is a comprehensive index of research outcomes derived from vaccine studies in nonhuman primates and provides an excellent index of papers for examination with our approach.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/H2_HIPClassicRegions"
+        resourceName="H2_HIPClassicRegions"
+        about="http://purl.bioontology.org/view/H2_HIPClassicRegions"
+        formalName="NeuroMorpho.Org hippocampal regions" valueSetName="H2_HIPClassicRegions">
+        <core:resourceSynopsis>
+            <core:value>A classical regional partition hierarchy of cornu ammonis  of rodent hippocampus.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/skos"
+        resourceName="skos"
+        about="http://purl.bioontology.org/view/skos"
+        formalName="SKOS (concepts)" valueSetName="skos">
+        <core:resourceSynopsis>
+            <core:value>This file is imported by vivo-core-1.5.owl.  It contains terms relating to concepts from the  http://www.w3.org/2004/02/skos/core# namespace of the SKOS (Simple Knowledge Organization System) ontology that are included in the vivo ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/ICF-d2"
+        resourceName="ICF-d2"
+        about="http://purl.bioontology.org/view/ICF-d2"
+        formalName="ICF-d2. GENERAL TASKS AND DEMANDS" valueSetName="ICF-d2">
+        <core:resourceSynopsis>
+            <core:value>The "ACTIVITIES AND PARTICIPATION CHAPTER 2: GENERAL TASKS AND DEMANDS" (d2) sub-tree of the "International Classification of Functioning, Disability and Health (ICF)" ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/NeuroFMA"
+        resourceName="NeuroFMA"
+        about="http://purl.bioontology.org/view/NeuroFMA"
+        formalName="NeuroFMA" valueSetName="NeuroFMA">
+        <core:resourceSynopsis>
+            <core:value>A view of FMA for neuroanatomy</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/BIOA3v"
+        resourceName="BIOA3v"
+        about="http://purl.bioontology.org/view/BIOA3v"
+        formalName="BIOA3view" valueSetName="BIOA3v">
+        <core:resourceSynopsis>
+            <core:value>test</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/H1_NMOABA"
+        resourceName="H1_NMOABA"
+        about="http://purl.bioontology.org/view/H1_NMOABA"
+        formalName="NeuroMorpho.Org Allen Brain Atlas ontology" valueSetName="H1_NMOABA">
+        <core:resourceSynopsis>
+            <core:value>Light version of the Allen Brain Atlas ontology that is customized for the NeuroMorpho.Org brain regions. This ontology instantiates 90% of rodent brain regions from NeuroMorpho.Org v5.2.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/BRO"
+        resourceName="BRO" about="http://purl.bioontology.org/view/BRO"
+        formalName="BRO Resource View" valueSetName="BRO">
+        <core:resourceSynopsis>
+            <core:value>Contains only the Resource subtree of BRO.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/iceci-countermeasures"
+        resourceName="iceci-countermeasures"
+        about="http://purl.bioontology.org/view/iceci-countermeasures"
+        formalName="iceci-countermeasures S.4" valueSetName="iceci-countermeasures">
+        <core:resourceSynopsis>
+            <core:value>ICECI PERSONAL COUNTERMEASURES(S.3) and ENVIRONMENTAL COUNTERMEASURES(S.4)</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/MSHFRE"
+        resourceName="MSHFRE"
+        about="http://purl.bioontology.org/view/MSHFRE"
+        formalName="Thesaurus Biomedical Francais/Anglais [French translation of MeSH]" valueSetName="MSHFRE">
+        <core:resourceSynopsis>
+            <core:value>Thesaurus Biomedical Francais/Anglais (French translation of the Medical Subject Headings)</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/ICF-d6"
+        resourceName="ICF-d6"
+        about="http://purl.bioontology.org/view/ICF-d6"
+        formalName="ICF-d6. DOMESTIC LIFE" valueSetName="ICF-d6">
+        <core:resourceSynopsis>
+            <core:value>The "ACTIVITIES AND PARTICIPATION CHAPTER 6: DOMESTIC LIFE" (d6) sub-tree of the "International Classification of Functioning, Disability and Health (ICF)" ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/documentStatus"
+        resourceName="documentStatus"
+        about="http://purl.bioontology.org/view/documentStatus"
+        formalName="documentStatus individuals" valueSetName="documentStatus">
+        <core:resourceSynopsis>
+            <core:value>This file is imported by vivo-core-public-1.5.owlThis file contains individuals of type bibo:DocumentStatus, that may be the value of a bibo:status assertion about a bibo:Document.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/SNOMEDCT-ANAT"
+        resourceName="SNOMEDCT-ANAT"
+        about="http://purl.bioontology.org/view/SNOMEDCT-ANAT"
+        formalName="SNOMED Anatomy" valueSetName="SNOMEDCT-ANAT">
+        <core:resourceSynopsis>
+            <core:value>The Anatomy class subtree in SNOMED-CT</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/dcelements"
+        resourceName="dcelements"
+        about="http://purl.bioontology.org/view/dcelements"
+        formalName="dcelements" valueSetName="dcelements">
+        <core:resourceSynopsis>
+            <core:value>This file is imported by vivo-core-public-1.5.owl.  It contains selected terms from the  http://purl.org/dc/elements/1.1/ namespace that are included in the vivo core ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/ICPCFRE"
+        resourceName="ICPCFRE"
+        about="http://purl.bioontology.org/view/ICPCFRE"
+        formalName="ICPC, French Translation" valueSetName="ICPCFRE">
+        <core:resourceSynopsis>
+            <core:value>ICPC, French Translation</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/RXNORM"
+        resourceName="RXNORM"
+        about="http://purl.bioontology.org/view/RXNORM"
+        formalName="RXNORM" valueSetName="RXNORM">
+        <core:resourceSynopsis>
+            <core:value>RXNORM</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/NCBI_NMO"
+        resourceName="NCBI_NMO"
+        about="http://purl.bioontology.org/view/NCBI_NMO"
+        formalName="NeuroMorpho.Org species ontology" valueSetName="NCBI_NMO">
+        <core:resourceSynopsis>
+            <core:value>A lighter version of the NCBI taxonomy that is customized for the NeuroMorpho.Org species.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/SNMD_BC"
+        resourceName="SNMD_BC"
+        about="http://purl.bioontology.org/view/SNMD_BC"
+        formalName="Snomed neoplasm, breast cancer" valueSetName="SNMD_BC">
+        <core:resourceSynopsis>
+            <core:value>This a new subset of Neoplasm_hamartoma view, based on Snomed clinical practice's used terms (Fondazione S.Maugeri anatomic pathology dep.). This subset is not to be meant exhaustive, it has been created in order to built a proper ontology for our project, ONCO-i2b2, through the NCBO Ontology Tools.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/H1_NMOABA"
+        resourceName="H1_NMOABA"
+        about="http://purl.bioontology.org/view/H1_NMOABA"
+        formalName="NeuroMorpho.Org Allen Brain Atlas ontology" valueSetName="H1_NMOABA">
+        <core:resourceSynopsis>
+            <core:value>Light version of the Allen Brain Atlas ontology that is customized for the NeuroMorpho.Org brain regions. This ontology instantiates 90% of rodent brain regions from NeuroMorpho.Org v5.2.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/H1_NMOABA"
+        resourceName="H1_NMOABA"
+        about="http://purl.bioontology.org/view/H1_NMOABA"
+        formalName="NeuroMorpho.Org Allen Brain Atlas ontology" valueSetName="H1_NMOABA">
+        <core:resourceSynopsis>
+            <core:value>Light version of the Allen Brain Atlas ontology that is customized for the NeuroMorpho.Org brain regions. This ontology instantiates 90% of rodent brain regions from NeuroMorpho.Org v5.2.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/ICD9CM-PROC"
+        resourceName="ICD9CM-PROC"
+        about="http://purl.bioontology.org/view/ICD9CM-PROC"
+        formalName="ICD9CM Procedures" valueSetName="ICD9CM-PROC">
+        <core:resourceSynopsis>
+            <core:value>This view contains only the PROCEDURES sub-tree of the ICD9CM ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/ECGT"
+        resourceName="ECGT"
+        about="http://purl.bioontology.org/view/ECGT"
+        formalName="ECG Terms" valueSetName="ECGT">
+        <core:resourceSynopsis>
+            <core:value>This is a listing of all the terms within the ECG Ontology, to make it easier to search for a term to annotate an ECG</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/ICF-d5"
+        resourceName="ICF-d5"
+        about="http://purl.bioontology.org/view/ICF-d5"
+        formalName="ICF-d5. SELF-CARE" valueSetName="ICF-d5">
+        <core:resourceSynopsis>
+            <core:value>The "ACTIVITIES AND PARTICIPATION CHAPTER 5: SELF-CARE" (d5) sub-tree of the "International Classification of Functioning, Disability and Health (ICF)" ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/NCBI_NMOsp"
+        resourceName="NCBI_NMOsp"
+        about="http://purl.bioontology.org/view/NCBI_NMOsp"
+        formalName="NeuroMorpho.Org Species Ontology" valueSetName="NCBI_NMOsp">
+        <core:resourceSynopsis>
+            <core:value>A lighter version of the NCBI taxonomy that is customized for the NeuroMorpho.Org species. The ontology also include NIFSTD, Rat strain and Jax mice terms that are arranged in a single parent hierarchical tree.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/BRO-Activity"
+        resourceName="BRO-Activity"
+        about="http://purl.bioontology.org/view/BRO-Activity"
+        formalName="Biomedical Resource Ontology - Activity View" valueSetName="BRO-Activity">
+        <core:resourceSynopsis>
+            <core:value>This view represents a subset of the BRO containing all the Activity classes that are relevant in the biomedical domain.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/BRO-Core"
+        resourceName="BRO-Core"
+        about="http://purl.bioontology.org/view/BRO-Core"
+        formalName="Biomedical Resource Ontology - Resource View" valueSetName="BRO-Core">
+        <core:resourceSynopsis>
+            <core:value>This view represents a subset of the BRO containing all the Resource types that are relevant for the biomedical domain. This view also includes the Deprecated Resource types.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/BRO-Chinese"
+        resourceName="BRO-Chinese"
+        about="http://purl.bioontology.org/view/BRO-Chinese"
+        formalName="Biomedical Resource Ontology with Simplified Chinese annotations." valueSetName="BRO-Chinese">
+        <core:resourceSynopsis>
+            <core:value>This view contains the entire BRO with the addition of three DataType properties, i.e., preferredName, shortName and synonym; then for all the classes and properties, Simplified Chinese (and some English) annotations were inserted into the ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/ICF-d810-d839"
+        resourceName="ICF-d810-d839"
+        about="http://purl.bioontology.org/view/ICF-d810-d839"
+        formalName="ICF-d810-d839. Education" valueSetName="ICF-d810-d839">
+        <core:resourceSynopsis>
+            <core:value>The "ACTIVITIES AND PARTICIPATION CHAPTER 8: MAJOR LIFE AREAS -&gt; Education" (d810-d839) sub-tree of the "International Classification of Functioning, Disability and Health (ICF)" ontology.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry href="http://informatics.mayo.edu/cts2/rest/valueset/NDF-RT"
+        resourceName="NDF-RT"
+        about="http://purl.bioontology.org/view/NDF-RT"
+        formalName="National Drug File – Reference Terminology" valueSetName="NDF-RT">
+        <core:resourceSynopsis>
+            <core:value>Logically inferred version in OWL of the National Drug File – Reference Terminology (NDF-RT). NDF-RT is the terminology used by FDA and the FedMed collaboration to code these essential pharmacologic properties of medications: Mechanism of Action, Physiologic Effect, Structural Class.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+    <entry
+        href="http://informatics.mayo.edu/cts2/rest/valueset/goslim_generic"
+        resourceName="goslim_generic"
+        about="http://purl.bioontology.org/view/goslim_generic"
+        formalName="Generic GO slim" valueSetName="goslim_generic">
+        <core:resourceSynopsis>
+            <core:value>Developed by GO Consortium.</core:value>
+        </core:resourceSynopsis>
+    </entry>
+</ValueSetCatalogEntryDirectory>
+
