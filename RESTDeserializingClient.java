@@ -27,8 +27,11 @@ public class RESTDeserializingClient {
 
     public void unMarshallandPrintValueSets() throws Exception {
         System.out.println("\nUnmarshalling and printing using CTS2 REST client\n");
+        boolean trustSelfSignedSsl = true;
         Cts2Marshaller marshaller = new DelegatingMarshaller();
-        Cts2RestClient client = new Cts2RestClient(marshaller);
+        Cts2RestClient client = new Cts2RestClient(marshaller, trustSelfSignedSsl);
+//        Cts2Marshaller marshaller = new DelegatingMarshaller();
+//        Cts2RestClient client = new Cts2RestClient(marshaller);
         ValueSetCatalogEntryDirectory result =
                 client.getCts2Resource("http://informatics.mayo.edu/cts2/rest/valuesets", ValueSetCatalogEntryDirectory.class);
         System.out.println(result);
