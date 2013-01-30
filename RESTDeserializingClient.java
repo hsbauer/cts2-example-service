@@ -30,8 +30,6 @@ public class RESTDeserializingClient {
         boolean trustSelfSignedSsl = true;
         Cts2Marshaller marshaller = new DelegatingMarshaller();
         Cts2RestClient client = new Cts2RestClient(marshaller, trustSelfSignedSsl);
-//        Cts2Marshaller marshaller = new DelegatingMarshaller();
-//        Cts2RestClient client = new Cts2RestClient(marshaller);
         ValueSetCatalogEntryDirectory result =
                 client.getCts2Resource("http://informatics.mayo.edu/cts2/rest/valuesets", ValueSetCatalogEntryDirectory.class);
         System.out.println(result);
